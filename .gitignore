@@ -1,0 +1,4 @@
+/build
+/tradesocket.so
+/tradesocket.egg-info
+*.pyc

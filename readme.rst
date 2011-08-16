@@ -14,13 +14,13 @@ See "tests/test_tradesocket.py" for an example of this.
 
 The module exposes two functions:
 
-    ``tradesocket.send_fd( fd_a, fd_b )``::
+    ``tradesocket.send_fd( fd_a, fd_b )``:
         
         Send a file descriptor ``fd_b`` over the file-descriptor ``fd_a``.
         
         Returns the number of characters sent over the socket or -1 if failed.
     
-    ``tradesocket.recv_fd( fd )``::
+    ``tradesocket.recv_fd( fd )``:
     
         Recieve a file descriptor over the file-descriptor ``fd``.
     
